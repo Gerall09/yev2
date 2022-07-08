@@ -244,7 +244,7 @@ ZimBotInc.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await ZimBotInc.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:DRIPS\nitem2.EMAIL;type=INTERNET:reinhardtuna@mail.uk\nitem2.X-ABLabel:Email\nitem3.URL:https://github.com/zimb-bot/\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;ZIMBABWE;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:OWNER\nitem2.EMAIL;type=INTERNET:SquidWard@official.id\nitem2.X-ABLabel:Email\nitem3.URL:https://Instagram/rall_nation09/\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;ISEKAI;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	ZimBotInc.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
