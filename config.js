@@ -37,14 +37,14 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['27634090203','']
-global.premium = ['27634090203','918188019676']
-global.botname = 'ZIM BOT INC'
-global.ownername = 'DRIPS'
-global.group1 = 'https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A'
+global.owner = ['6282196995322','6285891214734']
+global.premium = ['6287894034440','6289677352940']
+global.botname = 'SquidWard'
+global.ownername = 'Gerall'
+global.group1 = 'https://chat.whatsapp.com/DQeeZf6Ri4t7HBEigOVi3V'
 global.group2 = 'https://chat.whatsapp.com/HSfcYU13g5C8GxINWwSWoA'
-global.packname = 'ZIM BOT INC'
-global.ytchannel = 'https://youtu.be/ww4z2m3uORU'
+global.packname = 'Geral'
+global.ytchannel = 'https://youtu.be/c/AlmGrll'
 global.monayawal = '100000'
 global.darahawal = '100'
 global.besiAwal = '15'
@@ -65,22 +65,22 @@ global.f3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.docu
 global.f4 = 'application/zip'
 global.f5 = 'application/pdf'
 global.f6 = 'application/vnd.android.package-archive'
-global.author = 'ZIM BOT INC'
+global.author = 'geral'
 global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text='
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: '*success whoa*',
-        ban: '*Sorry, looks like u got banned😔😔 type .owner To request unban okay*',
-    horny: '*nsfw is disabled please ask owner to enable it*',
+    success: '*selesai*',
+        ban: '*Luh Keban Karena Kau Bajingan, 5k Kalau mau unban*',
+    horny: '*nsfw blom nyala di nyalain dlu*',
     admin: '*this cmd is for admin only , l can feel you but sorry okay*',
     botAdmin: '*with due respect can you please give bot adminship*',
     owner: '*this cmd is for bot owner only , l can feel you but sorry okay*',
     group: '*this feature is only for groups okay*',
     private: '*this feature can only used in dm okay*',
     bot: '*Special Features for User Bot Number okay*',
-    wait: '*whoa wait zim bot processing okay*',
+    wait: '*whoa wait bot processing okay*',
     endLimit: '*Brothers Daily Limit Has Expired, Type .buy limit amount limit to buy limit, Note: Limit will be reset every 12 hours*',
 }
 global.limitawal = {
@@ -95,10 +95,10 @@ global.limitawal = {
    umpanawal: 5,
    potionawal: 1
 }
-global.thumb = fs.readFileSync('./lib/hisoka.jpg')  
-global.bc = fs.readFileSync('./lib/bc.jpg')
-global.visoka = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
-global.vid = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
+global.thumb = { url: 'https://telegra.ph/file/7a2d794d5d71921fc9682.jpg' }  
+global.bc = { url: 'https://telegra.ph/file/84cc236247621089a69d7.jpg' }
+global.visoka = { url: 'https://telegra.ph/file/9ef8e4027530663343c47.jpg' }
+global.vid = { url: 'https://telegra.ph/file/7a2d794d5d71921fc9682.jpg' }
 
 //—————「 Set Random Image Menu 」—————//
 
